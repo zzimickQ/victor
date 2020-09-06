@@ -2,11 +2,9 @@
 
 ## [2.0.0] - 2020-09-06
 
-The source code is identical to `maxkueng/victor@1.1.0` but the `bower` package
-and `build/` artifacts have been removed.
-
-### Added
-- Unit Tests verified in Github Actions.
+The source code in this version is identical to [maxkueng/victor@1.1.0](https://github.com/maxkueng/victor/releases/tag/1.1.0)
+except that this version does not have a `bower` package or pre-made `build/`
+artifacts in the Git repository.
 
 ### Changed
 - Documentation to clarify that this is a fork.
