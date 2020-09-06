@@ -18,8 +18,8 @@ npm install victor --save
 ```
 
 ```javascript
-var Victor = require('victor');
-var vec = new Victor(42, 1337);
+const Victor = require('victor');
+let vec = new Victor(42, 1337);
 ```
 
 ## Build
