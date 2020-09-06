@@ -28,7 +28,7 @@ var vec = new Victor(42, 1337);
 npm test
 ```
 
-## Contributors
+## Contributors To `maxkueng/victor`
 
 Ordered by date of first contribution. [Auto-generated](https://github.com/dtrejo/node-authors) on Mon, 31 Aug 2015 13:08:12 GMT.
 
