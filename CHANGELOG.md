@@ -1,5 +1,10 @@
 # Changelog
 
+## [2.2.2] - 2020-09-06
+
+### Added
+- Link to homepage in `package.json`.
+
 ## [2.2.1] - 2020-09-06
 
 This time I remembered to only do a _patch_ version bump.

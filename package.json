@@ -22,6 +22,7 @@
       "url": "https://github.com/a-robu/victor/raw/master/LICENSE"
     }
   ],
+  "homepage": "https://a-robu.github.io/victor/",
   "devDependencies": {
     "angle-distance": "^1.0.0",
     "browserify": "^3.33.0",
