@@ -1043,6 +1043,7 @@ Victor.prototype.angle = Victor.prototype.horizontalAngle;
 Victor.prototype.angleDeg = Victor.prototype.horizontalAngleDeg;
 Victor.prototype.direction = Victor.prototype.horizontalAngle;
 
+/** Adds the given angle to the current angle of the vector. */
 Victor.prototype.rotate = function (angle) {
 	// We can verify that the rotation equations are the 
 	// same as on https://en.wikipedia.org/wiki/Rotation_matrix.
