@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.0] - 2020-09-06
+
+### Added
+- Added `.setLength()` function.
+
+## Deprecated
+- The `.rotateBy` and `.rotateByDeg()` functions are no longer supported.
+
 ## [2.0.0] - 2020-09-06
 
 The source code in this version is identical to [maxkueng/victor@1.1.0](https://github.com/maxkueng/victor/releases/tag/1.1.0)
