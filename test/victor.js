@@ -1,3 +1,6 @@
+
+const angleDistance = require('angle-distance');
+
 var expect = require('chai').expect;
 var Victor = require('../index');
 
