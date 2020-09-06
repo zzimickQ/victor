@@ -874,8 +874,8 @@ describe('chainable instance methods', function () {
 		});
 
 		it('should rotate any Vector to a given angle', function(){
-			expect(vecX.angle()).to.closeTo(120 * Math.PI /180, 0.001);
-			expect(vecY.angle()).to.closeTo(120 * Math.PI /180, 0.001);
+			expect(vecX.angle()).to.closeTo(120 * Math.PI /180, EPSILON);
+			expect(vecY.angle()).to.closeTo(120 * Math.PI /180, EPSILON);
 		});
 
 		it('should keep the length', function(){
