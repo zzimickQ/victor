@@ -953,7 +953,15 @@ describe('chainable instance methods', function () {
 			expect(ret).to.equal(vec);
 		});
 
-		it('should rotate by the given angle', function () {
+		it('rotates by the given angle and then some', function () {
+			// The comment taken from the URL below explains what is wrong with
+			// the #rotateBy() function.
+			// https://github.com/maxkueng/victor/issues/37#issuecomment-314936758
+			// The test case for .rotateBy() doesn’t detect the error because 
+			// it takes the vector (100,100), requests a 45 degree rotation,
+			// and expects the result (-100,100), but that is the wrong expected
+			// answer (it represents a 90 degree rotation). The correct expected
+			// answer would be approximately (0, 141.42)
 			expect(vec).to.have.property('x', -100);
 			expect(vec).to.have.property('y', 100);
 		});
