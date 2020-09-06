@@ -1,7 +1,7 @@
 {
-  "name": "victor",
+  "name": "@a-robu/victor",
   "version": "1.1.0",
-  "description": "A JavaScript 2D vector class with methods for common vector operations",
+  "description": "A JavaScript 2D vector class with methods for common vector operations (fork of Victor)",
   "keywords": [
     "vector",
     "2d"
@@ -16,7 +16,6 @@
     "doc": "markdox index.js -o documentation/api.md",
     "test": "mocha --ui bdd --reporter spec"
   },
-  "homepage": "http://victorjs.org/",
   "author": "Andrei D. Robu <andreidrobu@gmail.com> (https://andreirobu.uk)",
   "licenses": [
     {
