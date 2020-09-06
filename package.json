@@ -9,7 +9,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/maxkueng/victor.git"
+    "url": "git://github.com/a-robu/victor.git"
   },
   "scripts": {
     "build": "(echo '/*!' ; cat ./LICENSE ; echo '*/' ; browserify index.js --standalone Victor) > build/victor.js && cat build/victor.js | uglifyjs -mc --comments '/^!/' > build/victor.min.js",
