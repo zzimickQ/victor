@@ -14,3 +14,7 @@ and `build/` artifacts have been removed.
 ### Removed
 - Bower configuration.
 - Build artifacts are no longer present in the Git repository.
+
+## [1.1.0] - 2015-08-31
+
+Last release in `maxkueng/victor` repository before fork.
