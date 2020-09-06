@@ -1241,6 +1241,12 @@ Victor.prototype.lengthSq = function () {
 
 Victor.prototype.magnitude = Victor.prototype.length;
 
+Victor.prototype.setLength = function (scalar) {
+	this.normalize()
+	this.multiplyScalar(scalar)
+    return this;
+};
+
 /**
  * Returns a true if vector is (0, 0)
  *

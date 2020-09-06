@@ -1115,6 +1115,22 @@ describe('regular instance methods', function () {
 		});
 	});
 
+    describe('#setLength()', function () {
+        it('can double a unit vector', function () {
+			let actual = (new Victor(1, 0)).clone().setLength(2)
+			expect(actual).to.deep.equal(new Victor(2, 0))
+		});
+		it('scales the other axis by the same amount', function () {
+			let example = new Victor(2, 1)
+			// A simple target length to aim for is the length of the
+			// diagonal of a rectangle with sides 4 and 2 (which is)
+			// double the length of the original vector.
+			let actual = example.clone().setLength(example.length() * 2)
+			expect(actual.x).to.closeTo(4, EPSILON)
+			expect(actual.y).to.closeTo(2, EPSILON)
+		})
+    });
+
 	describe('#isZero()', function () {
 		var vec;
 
