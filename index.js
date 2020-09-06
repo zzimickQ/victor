@@ -1061,6 +1061,12 @@ Victor.prototype.rotateDeg = function (angle) {
 	return this.rotate(angle);
 };
 
+/** Sets the angle of the vector to the given value.
+ * 
+ * The pre-existing angle is not taken into consideration,
+ * that information is discarded. Only the length is taken
+ * into consideration.
+ */
 Victor.prototype.rotateTo = function(rotation) {
 	return this.rotate(rotation-this.angle());
 };
