@@ -7,7 +7,7 @@
 
 This repository is a fork of [github.com/maxkueng/victor](https://github.com/maxkueng/victor). The documentation of the original project is hosted at http://victorjs.org/, while the documentation of this fork (which is slightly different from the original) is hosted at https://a-robu.github.io/victor/.
 
-This fork clarifies some points in the documentation and adds one function. Slighly more information is available in the [CHANGELOG](CHANGELOG).
+This fork clarifies some points in the documentation and adds one function. Slighly more information is available in the [CHANGELOG](CHANGELOG.md).
 
 # Installing & Using
 
