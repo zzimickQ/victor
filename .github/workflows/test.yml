@@ -9,7 +9,10 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [8.x, 10.x, 12.x, 14.x]
+        # It seems that Mocha 8 does not support node 8.x
+        # as it fails with a "SyntaxError: Unexpected token import" error.
+        # So, for simplicity, we only test node versions above 8.x
+        node-version: [10.x, 12.x, 14.x]
 
     steps:
     - uses: actions/checkout@v2
