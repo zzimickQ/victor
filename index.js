@@ -1077,12 +1077,20 @@ Victor.prototype.rotateToDeg = function(rotation) {
 	return this.rotateTo(rotation);
 };
 
+/**
+ * @deprecated Use rotate() or rotateTo() instead.
+ */
 Victor.prototype.rotateBy = function (rotation) {
+	console.warn('Warning: methods #rotateBy() and #rotateByDeg() are deprecated')
+	console.warn('Please use #rotate() or #rotateTo() (or their "Deg" equivalents).')
 	var angle = this.angle() + rotation;
 
 	return this.rotate(angle);
 };
 
+/**
+ * @deprecated Use rotateDeg() or rotateToDeg() instead.
+ */
 Victor.prototype.rotateByDeg = function (rotation) {
 	rotation = degrees2radian(rotation);
 	return this.rotateBy(rotation);
