@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0] - 2020-09-06
+
+This version does not have any actual code changes.
+
+### Changed
+- Updated README to point to up-to-date documentation.
+
 ## [2.1.0] - 2020-09-06
 
 ### Added
