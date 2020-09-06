@@ -1,6 +1,6 @@
 {
   "name": "@a-robu/victor",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "A JavaScript 2D vector class with methods for common vector operations (fork of Victor)",
   "keywords": [
     "vector",
