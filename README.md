@@ -7,7 +7,7 @@
 
 Note that this is a fork of [github.com/maxkueng/victor](https://github.com/maxkueng/victor).
 It is not kept in sync with the main [documentation website](http://victorjs.org/) and
-some URLs/referenes may be contradictory.
+some URLs/references may be contradictory.
 
 ## Installation
 
