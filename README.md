@@ -22,11 +22,7 @@ var Victor = require('victor');
 var vec = new Victor(42, 1337);
 ```
 
-## Build & test
-
-```bash
-npm run build
-```
+## Build
 
 ```bash
 npm test
