@@ -5,11 +5,9 @@
 
 # Fork Notes
 
-Note that this is a fork of [github.com/maxkueng/victor](https://github.com/maxkueng/victor).
-It is not kept in sync with the main [documentation website](http://victorjs.org/) and
-some URLs/references may be contradictory.
+This repository is a fork of [github.com/maxkueng/victor](https://github.com/maxkueng/victor). The documentation of the original project is hosted at http://victorjs.org/, while the documentation of this fork (which is slightly different from the original) is hosted at https://a-robu.github.io/victor/.
 
-Currently, there are no new features in this fork.
+This fork clarifies some points in the documentation and adds one function. Slighly more information is available in the [CHANGELOG](CHANGELOG).
 
 # Installing & Using
 
@@ -21,6 +19,8 @@ npm install @a-robu/victor --save
 const Victor = require('victor');
 let vec = new Victor(42, 1337);
 ```
+
+For more examples, see the documentation at https://a-robu.github.io/victor/.
 
 # Developing
 
