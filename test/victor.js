@@ -890,6 +890,27 @@ describe('chainable instance methods', function () {
 			expect(retY.length()).to.equal(100);
 		});
 
+		it('can set to any angle for any vector', () => {
+			// It wasn't very clear to me if the function #rotateTo()
+			// works correctly so I decided to brute force the problem a bit.
+			// We setup a grid of values for {x, y} and angle and for each
+			// of them we verify that the length is indeed preserved
+			// and the angle is indeed set to the given angle.
+			for (let rad = 0; rad < Math.PI * 10; rad += 5.5) {
+				for (let x = -5; x < 5; x += 1.9) {
+					for (let y = -5; y < 5; y += 1.8) {
+						let sample = new Victor(x, y)
+						let original_length = sample.length()
+						let actual = sample.clone().rotateTo(rad)
+						expect(actual.length()).to.closeTo(original_length, EPSILON)
+						// We can't use closeTo to assert that the angles
+						// are close because they are in a circular space,
+						expect(angleDistance.radian(actual.angle(), rad)).to.lte(EPSILON)
+					}
+				}
+			}
+		})
+
 	});
 
 	describe('#rotateToDeg()', function(){
