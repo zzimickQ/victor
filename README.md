@@ -1,7 +1,7 @@
 ![Victor](./artwork/logo.png)
 =============================
 
-[![Build Status](https://secure.travis-ci.org/maxkueng/victor.png?branch=master)](http://travis-ci.org/maxkueng/victor)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/a-robu/victor/Node.js%20CI/master)
 
 A Javascript 2D Vector Maths Library, built using the UMD standards, so you can use it as a global object or with any module loader. It works in both Node.js and the browser.
 
