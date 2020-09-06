@@ -1,6 +1,18 @@
 # Changelog
 
+## [2.2.1] - 2020-09-06
+
+This time I remembered to only do a _patch_ version bump.
+
+### Changed
+- Add reference to NPM package in README.
+
+### Fixed
+- Fixed reference to CHANGELOG in README.
+
 ## [2.2.0] - 2020-09-06
+
+(it didn't actually need a _minor_ version bump bere)
 
 This version does not have any actual code changes.
 
