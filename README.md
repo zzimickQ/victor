@@ -9,6 +9,8 @@ Note that this is a fork of [github.com/maxkueng/victor](https://github.com/maxk
 It is not kept in sync with the main [documentation website](http://victorjs.org/) and
 some URLs/references may be contradictory.
 
+Currently, there are no new features in this fork.
+
 # Installing & Using
 
 ```bash
