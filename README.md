@@ -9,12 +9,10 @@ Note that this is a fork of [github.com/maxkueng/victor](https://github.com/maxk
 It is not kept in sync with the main [documentation website](http://victorjs.org/) and
 some URLs/references may be contradictory.
 
-## Installation
-
-### Node.js / Browserify
+# Installing & Using
 
 ```bash
-npm install victor --save
+npm install @a-robu/victor --save
 ```
 
 ```javascript
@@ -22,13 +20,13 @@ const Victor = require('victor');
 let vec = new Victor(42, 1337);
 ```
 
-## Build
+# Developing
 
 ```bash
 npm test
 ```
 
-## Contributors To `maxkueng/victor`
+# Contributors To `maxkueng/victor`
 
 Ordered by date of first contribution. [Auto-generated](https://github.com/dtrejo/node-authors) on Mon, 31 Aug 2015 13:08:12 GMT.
 
@@ -43,6 +41,6 @@ Ordered by date of first contribution. [Auto-generated](https://github.com/dtrej
 - [Joonas Salmela](https://github.com/undefined) aka `undefined`
 - [Moritz Rebbert](https://github.com/ztiromoritz) aka `ztiromoritz`
 
-## License
+# License
 
 MIT
