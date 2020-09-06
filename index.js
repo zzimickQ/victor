@@ -1044,6 +1044,9 @@ Victor.prototype.angleDeg = Victor.prototype.horizontalAngleDeg;
 Victor.prototype.direction = Victor.prototype.horizontalAngle;
 
 Victor.prototype.rotate = function (angle) {
+	// We can verify that the rotation equations are the 
+	// same as on https://en.wikipedia.org/wiki/Rotation_matrix.
+	// Specifically, {x: x cos θ - y sin θ, x sin θ + y cos θ}
 	var nx = (this.x * Math.cos(angle)) - (this.y * Math.sin(angle));
 	var ny = (this.x * Math.sin(angle)) + (this.y * Math.cos(angle));
 
