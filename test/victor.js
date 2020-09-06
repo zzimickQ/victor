@@ -836,6 +836,13 @@ describe('chainable instance methods', function () {
 			expect(vec).to.have.property('y', 100);
 			expect(Math.abs(vec.horizontalAngle() - 135 * Math.PI / 180)).to.lte(EPSILON);
 		});
+
+		it('should leave the vector in same state after rotating 0 rad', () => {
+			var original = new Victor(100, 100)
+			var actual = original.clone().rotate(0)
+			expect(actual.x).to.closeTo(original.x, EPSILON)
+			expect(actual.y).to.closeTo(original.y, EPSILON)
+		})
 	});
 
 
