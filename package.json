@@ -17,11 +17,7 @@
     "test": "mocha --ui bdd --reporter spec"
   },
   "homepage": "http://victorjs.org/",
-  "author": "Max Kueng <me@maxkueng.com> (http://maxkueng.com/)",
-  "maintainers": [
-    "Max Kueng (http://maxkueng.com/)",
-    "George Crabtree (http://georgecrabtree.com/)"
-  ],
+  "author": "Andrei D. Robu <andreidrobu@gmail.com> (https://andreirobu.uk)",
   "licenses": [
     {
       "type": "MIT",
