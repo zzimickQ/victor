@@ -3,9 +3,11 @@
 
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/a-robu/victor/Node.js%20CI/master)
 
-A Javascript 2D Vector Maths Library, built using the UMD standards, so you can use it as a global object or with any module loader. It works in both Node.js and the browser.
+# Fork Notes
 
-Check out the website for [documentation](http://victorjs.org/).
+Note that this is a fork of [github.com/maxkueng/victor](https://github.com/maxkueng/victor).
+It is not kept in sync with the main [documentation website](http://victorjs.org/) and
+some URLs/referenes may be contradictory.
 
 ## Installation
 
