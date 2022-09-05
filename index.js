@@ -1336,7 +1336,7 @@ Victor.prototype.toObject = function () {
 var degrees = 180 / Math.PI;
 
 function random (min, max) {
-    return Math.floor(Math.random() * (max - min + 1) + min);
+    return Math.random() * (max - min) + min;
 }
 
 function radian2degrees (rad) {
